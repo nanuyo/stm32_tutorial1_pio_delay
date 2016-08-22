@@ -1,2 +1,4 @@
-# stm32_tutorial1_pio_delay
-STM32 basic tutorial to control GPIO with delay
+# stm32_tutorials_from_nanuyo.com
+STM32 basic tutorials
+  -gpio
+  -delay
