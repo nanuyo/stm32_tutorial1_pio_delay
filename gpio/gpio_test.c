@@ -11,8 +11,6 @@
 
 #include "stm32f4xx.h"
 			
-//#define TEST1
-#define TEST2
 
 int gpioTest(void)
 {
@@ -31,61 +29,8 @@ int gpioTest(void)
 
 	  while (1)
 	  {
-#if defined(TEST1)
-	    /* Set PG6 and PG8 */
-	    GPIOA->BSRRL = GPIO_Pin_5;
-	    /* Reset PG6 and PG8 */
-	    GPIOA->BSRRH = GPIO_Pin_5;
-
-	    /* Set PG6 and PG8 */
-	    GPIOA->BSRRL = GPIO_Pin_5;
-	    /* Reset PG6 and PG8 */
-	    GPIOA->BSRRH = GPIO_Pin_5;
-
-	    /* Set PG6 and PG8 */
-	    GPIOA->BSRRL = GPIO_Pin_5;
-	    /* Reset PG6 and PG8 */
-	    GPIOA->BSRRH = GPIO_Pin_5;
-
-	    /* Set PG6 and PG8 */
-	    GPIOA->BSRRL = GPIO_Pin_5;
-	    /* Reset PG6 and PG8 */
-	    GPIOA->BSRRH = GPIO_Pin_5;
-
-	    /* Set PG6 and PG8 */
-	    GPIOA->BSRRL = GPIO_Pin_5;
-	    /* Reset PG6 and PG8 */
-	    GPIOA->BSRRH = GPIO_Pin_5;
-
-	    /* Set PG6 and PG8 */
-	    GPIOA->BSRRL = GPIO_Pin_5;
-	    /* Reset PG6 and PG8 */
-	    GPIOA->BSRRH = GPIO_Pin_5;
-
-	    /* Set PG6 and PG8 */
-	    GPIOA->BSRRL = GPIO_Pin_5;
-	    /* Reset PG6 and PG8 */
-	    GPIOA->BSRRH = GPIO_Pin_5;
-
-	    /* Set PG6 and PG8 */
-	    GPIOA->BSRRL = GPIO_Pin_5;
-	    /* Reset PG6 and PG8 */
-	    GPIOA->BSRRH = GPIO_Pin_5;
-
-	    /* Set PG6 and PG8 */
-	    GPIOA->BSRRL = GPIO_Pin_5;
-	    /* Reset PG6 and PG8 */
-	    GPIOA->BSRRH = GPIO_Pin_5;
-
-	    /* Set PG6 and PG8 */
-	    GPIOA->BSRRL = GPIO_Pin_5;
-	    /* Reset PG6 and PG8 */
-	    GPIOA->BSRRH = GPIO_Pin_5;
-#elif defined(TEST2)
 	    GPIO_ToggleBits(GPIOA, GPIO_Pin_5);
-	    EnableTiming();
 	    TimingDelay(180000000); /* 1 sec */
-#endif
 	  }
 
 }
