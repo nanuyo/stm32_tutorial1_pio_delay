@@ -16,8 +16,6 @@ C_DEPS :=
 # Every subdirectory with source files must be described here
 SUBDIRS := \
 StdPeriph_Driver/src \
-delay \
-led \
 src \
 startup \
 

@@ -1,9 +1,3 @@
 /StdPeriph_Driver/
-/sources.mk
-/delay/
-/led/
-/makefile
-/objects.list
-/objects.mk
 /src/
 /startup/

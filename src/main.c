@@ -9,11 +9,12 @@
 */
 
 
+
 #include "stm32f4xx.h"
-#include "gpio.h"
+#include "led.h"
 
 int main(void)
 {
-	LedTest();
+	HJ_LedToggleTest();
 	for(;;);
 }

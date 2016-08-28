@@ -144,7 +144,7 @@ StdPeriph_Driver/src/%.o: ../StdPeriph_Driver/src/%.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU GCC Compiler'
 	@echo %cd%
-	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F446RETx -DNUCLEO_F446RE -DSTM32F4 -DSTM32 -DDEBUG -DUSE_STDPERIPH_DRIVER -DSTM32F446xx -I"D:/hjworkspace/stm32_tutorials_from_nanuyo.com/inc" -I"D:/hjworkspace/stm32_tutorials_from_nanuyo.com/CMSIS/core" -I"D:/hjworkspace/stm32_tutorials_from_nanuyo.com/CMSIS/device" -I"D:/hjworkspace/stm32_tutorials_from_nanuyo.com/StdPeriph_Driver/inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -o "$@" "$<"
+	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F446RETx -DNUCLEO_F446RE -DSTM32F4 -DSTM32 -DDEBUG -DUSE_STDPERIPH_DRIVER -DSTM32F446xx -ID:/hjworkspace/stm32_tutorials_from_nanuyo.com/inc -ID:/hjworkspace/stm32_tutorials_from_nanuyo.com/CMSIS/core -ID:/hjworkspace/stm32_tutorials_from_nanuyo.com/CMSIS/device -ID:/hjworkspace/stm32_tutorials_from_nanuyo.com/StdPeriph_Driver/inc -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

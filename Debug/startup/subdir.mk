@@ -15,7 +15,7 @@ startup/%.o: ../startup/%.s
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU GCC Assembler'
 	@echo %cd%
-	arm-none-eabi-as -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -I"D:/hjworkspace/stm32_tutorials_from_nanuyo.com/inc" -I"D:/hjworkspace/stm32_tutorials_from_nanuyo.com/CMSIS/core" -I"D:/hjworkspace/stm32_tutorials_from_nanuyo.com/CMSIS/device" -I"D:/hjworkspace/stm32_tutorials_from_nanuyo.com/StdPeriph_Driver/inc" -g -o "$@" "$<"
+	arm-none-eabi-as -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ID:/hjworkspace/stm32_tutorials_from_nanuyo.com/inc -ID:/hjworkspace/stm32_tutorials_from_nanuyo.com/CMSIS/core -ID:/hjworkspace/stm32_tutorials_from_nanuyo.com/CMSIS/device -ID:/hjworkspace/stm32_tutorials_from_nanuyo.com/StdPeriph_Driver/inc -g -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
