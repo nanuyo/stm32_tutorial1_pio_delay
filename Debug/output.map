@@ -5895,95 +5895,95 @@ Discarded input sections
  .group         0x00000000        0x8 delay/delay.o
  .text          0x00000000        0x0 delay/delay.o
  .debug_macro   0x00000000      0x8aa delay/delay.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .group         0x00000000        0x8 gpio/gpio_test.o
- .text          0x00000000        0x0 gpio/gpio_test.o
- .data          0x00000000        0x0 gpio/gpio_test.o
- .bss           0x00000000        0x0 gpio/gpio_test.o
- .debug_macro   0x00000000      0x8aa gpio/gpio_test.o
- .debug_macro   0x00000000       0x65 gpio/gpio_test.o
- .debug_macro   0x00000000       0x3b gpio/gpio_test.o
- .debug_macro   0x00000000       0x22 gpio/gpio_test.o
- .debug_macro   0x00000000       0x44 gpio/gpio_test.o
- .debug_macro   0x00000000       0xfd gpio/gpio_test.o
- .debug_macro   0x00000000       0x22 gpio/gpio_test.o
- .debug_macro   0x00000000      0x1df gpio/gpio_test.o
- .debug_macro   0x00000000       0x34 gpio/gpio_test.o
- .debug_macro   0x00000000       0x26 gpio/gpio_test.o
- .debug_macro   0x00000000      0xe43 gpio/gpio_test.o
- .debug_macro   0x00000000     0x9f3d gpio/gpio_test.o
- .debug_macro   0x00000000      0x448 gpio/gpio_test.o
- .debug_macro   0x00000000       0xb2 gpio/gpio_test.o
- .debug_macro   0x00000000      0x477 gpio/gpio_test.o
- .debug_macro   0x00000000       0xb5 gpio/gpio_test.o
- .debug_macro   0x00000000      0x41c gpio/gpio_test.o
- .debug_macro   0x00000000      0x341 gpio/gpio_test.o
- .debug_macro   0x00000000      0x2ba gpio/gpio_test.o
- .debug_macro   0x00000000       0x64 gpio/gpio_test.o
- .debug_macro   0x00000000      0x100 gpio/gpio_test.o
- .debug_macro   0x00000000      0x75f gpio/gpio_test.o
- .debug_macro   0x00000000      0x59e gpio/gpio_test.o
- .debug_macro   0x00000000      0x342 gpio/gpio_test.o
- .debug_macro   0x00000000      0x36c gpio/gpio_test.o
- .debug_macro   0x00000000       0xf7 gpio/gpio_test.o
- .debug_macro   0x00000000      0x73b gpio/gpio_test.o
- .debug_macro   0x00000000      0x223 gpio/gpio_test.o
- .debug_macro   0x00000000       0x34 gpio/gpio_test.o
- .debug_macro   0x00000000       0x82 gpio/gpio_test.o
- .debug_macro   0x00000000      0x144 gpio/gpio_test.o
- .debug_macro   0x00000000       0xc3 gpio/gpio_test.o
- .debug_macro   0x00000000      0x3cf gpio/gpio_test.o
- .debug_macro   0x00000000      0x188 gpio/gpio_test.o
- .debug_macro   0x00000000      0x149 gpio/gpio_test.o
- .debug_macro   0x00000000      0x21e gpio/gpio_test.o
- .debug_macro   0x00000000      0x23a gpio/gpio_test.o
- .debug_macro   0x00000000      0x336 gpio/gpio_test.o
- .debug_macro   0x00000000      0x287 gpio/gpio_test.o
- .debug_macro   0x00000000      0x29a gpio/gpio_test.o
- .debug_macro   0x00000000      0x142 gpio/gpio_test.o
- .debug_macro   0x00000000      0x191 gpio/gpio_test.o
- .debug_macro   0x00000000       0x35 gpio/gpio_test.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .group         0x00000000        0x8 led/led.o
+ .text          0x00000000        0x0 led/led.o
+ .data          0x00000000        0x0 led/led.o
+ .bss           0x00000000        0x0 led/led.o
+ .debug_macro   0x00000000      0x8aa led/led.o
+ .debug_macro   0x00000000       0x65 led/led.o
+ .debug_macro   0x00000000       0x3b led/led.o
+ .debug_macro   0x00000000       0x22 led/led.o
+ .debug_macro   0x00000000       0x44 led/led.o
+ .debug_macro   0x00000000       0xfd led/led.o
+ .debug_macro   0x00000000       0x22 led/led.o
+ .debug_macro   0x00000000      0x1df led/led.o
+ .debug_macro   0x00000000       0x34 led/led.o
+ .debug_macro   0x00000000       0x26 led/led.o
+ .debug_macro   0x00000000      0xe43 led/led.o
+ .debug_macro   0x00000000     0x9f3d led/led.o
+ .debug_macro   0x00000000      0x448 led/led.o
+ .debug_macro   0x00000000       0xb2 led/led.o
+ .debug_macro   0x00000000      0x477 led/led.o
+ .debug_macro   0x00000000       0xb5 led/led.o
+ .debug_macro   0x00000000      0x41c led/led.o
+ .debug_macro   0x00000000      0x341 led/led.o
+ .debug_macro   0x00000000      0x2ba led/led.o
+ .debug_macro   0x00000000       0x64 led/led.o
+ .debug_macro   0x00000000      0x100 led/led.o
+ .debug_macro   0x00000000      0x75f led/led.o
+ .debug_macro   0x00000000      0x59e led/led.o
+ .debug_macro   0x00000000      0x342 led/led.o
+ .debug_macro   0x00000000      0x36c led/led.o
+ .debug_macro   0x00000000       0xf7 led/led.o
+ .debug_macro   0x00000000      0x73b led/led.o
+ .debug_macro   0x00000000      0x223 led/led.o
+ .debug_macro   0x00000000       0x34 led/led.o
+ .debug_macro   0x00000000       0x82 led/led.o
+ .debug_macro   0x00000000      0x144 led/led.o
+ .debug_macro   0x00000000       0xc3 led/led.o
+ .debug_macro   0x00000000      0x3cf led/led.o
+ .debug_macro   0x00000000      0x188 led/led.o
+ .debug_macro   0x00000000      0x149 led/led.o
+ .debug_macro   0x00000000      0x21e led/led.o
+ .debug_macro   0x00000000      0x23a led/led.o
+ .debug_macro   0x00000000      0x336 led/led.o
+ .debug_macro   0x00000000      0x287 led/led.o
+ .debug_macro   0x00000000      0x29a led/led.o
+ .debug_macro   0x00000000      0x142 led/led.o
+ .debug_macro   0x00000000      0x191 led/led.o
+ .debug_macro   0x00000000       0x35 led/led.o
  .group         0x00000000        0x8 src/main.o
  .group         0x00000000        0x8 src/main.o
  .group         0x00000000        0x8 src/main.o
@@ -6385,7 +6385,7 @@ LOAD StdPeriph_Driver/src/stm32f4xx_tim.o
 LOAD StdPeriph_Driver/src/stm32f4xx_usart.o
 LOAD StdPeriph_Driver/src/stm32f4xx_wwdg.o
 LOAD delay/delay.o
-LOAD gpio/gpio_test.o
+LOAD led/led.o
 LOAD src/main.o
 LOAD src/syscalls.o
 LOAD src/system_stm32f4xx.o
@@ -6427,9 +6427,8 @@ LOAD d:/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.7.0.20
  .text.TimingDelay
                 0x08000400       0x34 delay/delay.o
                 0x08000400                TimingDelay
- .text.gpioTest
-                0x08000434       0x44 gpio/gpio_test.o
-                0x08000434                gpioTest
+ .text.LedTest  0x08000434       0x44 led/led.o
+                0x08000434                LedTest
  .text.main     0x08000478        0xc src/main.o
                 0x08000478                main
  .text.SystemInit
@@ -6617,7 +6616,7 @@ LOAD d:/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.7.0.20
  .ARM.attributes
                 0x000000c8       0x39 delay/delay.o
  .ARM.attributes
-                0x00000101       0x39 gpio/gpio_test.o
+                0x00000101       0x39 led/led.o
  .ARM.attributes
                 0x0000013a       0x39 src/main.o
  .ARM.attributes
@@ -6642,23 +6641,23 @@ LOAD d:/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.7.0.20
                 0x0000033d       0x22 d:/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.7.0.201602121829/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/crtn.o
 OUTPUT(stm32_tutorials_from_nanuyo.com.elf elf32-littlearm)
 
-.debug_info     0x00000000     0x2070
+.debug_info     0x00000000     0x2082
  .debug_info    0x00000000      0x625 StdPeriph_Driver/src/stm32f4xx_gpio.o
  .debug_info    0x00000625      0xf7d StdPeriph_Driver/src/stm32f4xx_rcc.o
  .debug_info    0x000015a2       0xdd delay/delay.o
- .debug_info    0x0000167f      0x2d8 gpio/gpio_test.o
- .debug_info    0x00001957       0xb3 src/main.o
- .debug_info    0x00001a0a      0x5f1 src/system_stm32f4xx.o
- .debug_info    0x00001ffb       0x75 startup/startup_stm32.o
+ .debug_info    0x0000167f      0x2d8 led/led.o
+ .debug_info    0x00001957       0xc5 src/main.o
+ .debug_info    0x00001a1c      0x5f1 src/system_stm32f4xx.o
+ .debug_info    0x0000200d       0x75 startup/startup_stm32.o
 
-.debug_abbrev   0x00000000      0x6f1
+.debug_abbrev   0x00000000      0x709
  .debug_abbrev  0x00000000      0x1ac StdPeriph_Driver/src/stm32f4xx_gpio.o
  .debug_abbrev  0x000001ac      0x1c1 StdPeriph_Driver/src/stm32f4xx_rcc.o
  .debug_abbrev  0x0000036d       0xa0 delay/delay.o
- .debug_abbrev  0x0000040d      0x129 gpio/gpio_test.o
- .debug_abbrev  0x00000536       0x6c src/main.o
- .debug_abbrev  0x000005a2      0x13d src/system_stm32f4xx.o
- .debug_abbrev  0x000006df       0x12 startup/startup_stm32.o
+ .debug_abbrev  0x0000040d      0x129 led/led.o
+ .debug_abbrev  0x00000536       0x84 src/main.o
+ .debug_abbrev  0x000005ba      0x13d src/system_stm32f4xx.o
+ .debug_abbrev  0x000006f7       0x12 startup/startup_stm32.o
 
 .debug_aranges  0x00000000      0x330
  .debug_aranges
@@ -6668,7 +6667,7 @@ OUTPUT(stm32_tutorials_from_nanuyo.com.elf elf32-littlearm)
  .debug_aranges
                 0x00000270       0x28 delay/delay.o
  .debug_aranges
-                0x00000298       0x20 gpio/gpio_test.o
+                0x00000298       0x20 led/led.o
  .debug_aranges
                 0x000002b8       0x20 src/main.o
  .debug_aranges
@@ -6680,7 +6679,7 @@ OUTPUT(stm32_tutorials_from_nanuyo.com.elf elf32-littlearm)
  .debug_ranges  0x00000000       0x78 StdPeriph_Driver/src/stm32f4xx_gpio.o
  .debug_ranges  0x00000078      0x1d8 StdPeriph_Driver/src/stm32f4xx_rcc.o
  .debug_ranges  0x00000250       0x18 delay/delay.o
- .debug_ranges  0x00000268       0x10 gpio/gpio_test.o
+ .debug_ranges  0x00000268       0x10 led/led.o
  .debug_ranges  0x00000278       0x10 src/main.o
  .debug_ranges  0x00000288       0x20 src/system_stm32f4xx.o
  .debug_ranges  0x000002a8       0x20 startup/startup_stm32.o
@@ -6690,31 +6689,31 @@ OUTPUT(stm32_tutorials_from_nanuyo.com.elf elf32-littlearm)
  .debug_macro   0x000001ed      0x33b StdPeriph_Driver/src/stm32f4xx_gpio.o
  .debug_macro   0x00000528      0x2bc StdPeriph_Driver/src/stm32f4xx_rcc.o
  .debug_macro   0x000007e4       0x11 delay/delay.o
- .debug_macro   0x000007f5      0x1df gpio/gpio_test.o
+ .debug_macro   0x000007f5      0x1df led/led.o
  .debug_macro   0x000009d4      0x1e9 src/main.o
  .debug_macro   0x00000bbd      0x20a src/system_stm32f4xx.o
 
-.debug_line     0x00000000     0x27d3
+.debug_line     0x00000000     0x27cc
  .debug_line    0x00000000      0x7db StdPeriph_Driver/src/stm32f4xx_gpio.o
  .debug_line    0x000007db      0xb56 StdPeriph_Driver/src/stm32f4xx_rcc.o
  .debug_line    0x00001331       0x62 delay/delay.o
- .debug_line    0x00001393      0x65c gpio/gpio_test.o
- .debug_line    0x000019ef      0x683 src/main.o
- .debug_line    0x00002072      0x6e8 src/system_stm32f4xx.o
- .debug_line    0x0000275a       0x79 startup/startup_stm32.o
+ .debug_line    0x00001393      0x655 led/led.o
+ .debug_line    0x000019e8      0x683 src/main.o
+ .debug_line    0x0000206b      0x6e8 src/system_stm32f4xx.o
+ .debug_line    0x00002753       0x79 startup/startup_stm32.o
 
-.debug_str      0x00000000    0x6d0d3
+.debug_str      0x00000000    0x6d0cb
  .debug_str     0x00000000    0x6c069 StdPeriph_Driver/src/stm32f4xx_gpio.o
                               0x6c345 (size before relaxing)
  .debug_str     0x0006c069      0xe86 StdPeriph_Driver/src/stm32f4xx_rcc.o
                               0x6cf21 (size before relaxing)
  .debug_str     0x0006ceef       0x66 delay/delay.o
                                0x2592 (size before relaxing)
- .debug_str     0x0006cf55       0x30 gpio/gpio_test.o
-                              0x6c1e3 (size before relaxing)
- .debug_str     0x0006cf85       0x1c src/main.o
-                              0x6c00a (size before relaxing)
- .debug_str     0x0006cfa1      0x132 src/system_stm32f4xx.o
+ .debug_str     0x0006cf55       0x28 led/led.o
+                              0x6c1db (size before relaxing)
+ .debug_str     0x0006cf7d       0x1c src/main.o
+                              0x6c012 (size before relaxing)
+ .debug_str     0x0006cf99      0x132 src/system_stm32f4xx.o
                               0x6c2b4 (size before relaxing)
 
 .comment        0x00000000       0x6e
@@ -6722,7 +6721,7 @@ OUTPUT(stm32_tutorials_from_nanuyo.com.elf elf32-littlearm)
                                  0x6f (size before relaxing)
  .comment       0x0000006e       0x6f StdPeriph_Driver/src/stm32f4xx_rcc.o
  .comment       0x0000006e       0x6f delay/delay.o
- .comment       0x0000006e       0x6f gpio/gpio_test.o
+ .comment       0x0000006e       0x6f led/led.o
  .comment       0x0000006e       0x6f src/main.o
  .comment       0x0000006e       0x6f src/system_stm32f4xx.o
 
@@ -6730,7 +6729,7 @@ OUTPUT(stm32_tutorials_from_nanuyo.com.elf elf32-littlearm)
  .debug_frame   0x00000000      0x23c StdPeriph_Driver/src/stm32f4xx_gpio.o
  .debug_frame   0x0000023c      0x904 StdPeriph_Driver/src/stm32f4xx_rcc.o
  .debug_frame   0x00000b40       0x54 delay/delay.o
- .debug_frame   0x00000b94       0x30 gpio/gpio_test.o
+ .debug_frame   0x00000b94       0x30 led/led.o
  .debug_frame   0x00000bc4       0x2c src/main.o
  .debug_frame   0x00000bf0       0x7c src/system_stm32f4xx.o
  .debug_frame   0x00000c6c       0x2c d:/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.7.0.201602121829/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-init.o)

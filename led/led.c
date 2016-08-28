@@ -12,7 +12,7 @@
 #include "stm32f4xx.h"
 			
 
-int gpioTest(void)
+int LedTest(void)
 {
 	  GPIO_InitTypeDef  GPIO_InitStructure;
 

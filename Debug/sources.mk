@@ -17,7 +17,7 @@ C_DEPS :=
 SUBDIRS := \
 StdPeriph_Driver/src \
 delay \
-gpio \
+led \
 src \
 startup \
 

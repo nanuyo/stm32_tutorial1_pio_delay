@@ -42,7 +42,7 @@
 "StdPeriph_Driver/src/stm32f4xx_usart.o"
 "StdPeriph_Driver/src/stm32f4xx_wwdg.o"
 "delay/delay.o"
-"gpio/gpio_test.o"
+"led/led.o"
 "src/main.o"
 "src/syscalls.o"
 "src/system_stm32f4xx.o"

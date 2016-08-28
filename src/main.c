@@ -14,6 +14,6 @@
 
 int main(void)
 {
-	gpioTest();
+	LedTest();
 	for(;;);
 }
