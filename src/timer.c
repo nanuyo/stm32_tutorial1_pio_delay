@@ -9,7 +9,7 @@ void HJ_TimerInit(void)
 
     TIM_TimeBaseInitTypeDef timerInitStructure;
 
-    timerInitStructure.TIM_Prescaler = 40000;
+    timerInitStructure.TIM_Prescaler = 44999;
     timerInitStructure.TIM_CounterMode = TIM_CounterMode_Up;
     timerInitStructure.TIM_Period = 500;
     timerInitStructure.TIM_ClockDivision = TIM_CKD_DIV1;

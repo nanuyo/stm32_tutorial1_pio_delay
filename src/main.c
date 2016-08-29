@@ -17,9 +17,9 @@
 int main(void)
 {
 	//HJ_LedToggleTest();
-	//HJ_TimerTest();
+	HJ_TimerTest();
 	//HJ_TimerInterruptTest();
 	//HJ_TimerInterruptHandlerTest();
-	HJ_TimerPWMTest();
+	//HJ_TimerPWMTest();
 	for(;;);
 }
