@@ -38,7 +38,8 @@ src/main.o: ../src/main.c \
  D:/hjworkspace/stm32_tutorials_from_nanuyo.com/StdPeriph_Driver/inc/stm32f4xx_fmpi2c.h \
  D:/hjworkspace/stm32_tutorials_from_nanuyo.com/StdPeriph_Driver/inc/stm32f4xx_spdifrx.h \
  D:/hjworkspace/stm32_tutorials_from_nanuyo.com/StdPeriph_Driver/inc/stm32f4xx_cec.h \
- D:/hjworkspace/stm32_tutorials_from_nanuyo.com/inc/led.h
+ D:/hjworkspace/stm32_tutorials_from_nanuyo.com/inc/led.h \
+ D:/hjworkspace/stm32_tutorials_from_nanuyo.com/inc/timer.h
 
 D:/hjworkspace/stm32_tutorials_from_nanuyo.com/CMSIS/device/stm32f4xx.h:
 
@@ -119,3 +120,5 @@ D:/hjworkspace/stm32_tutorials_from_nanuyo.com/StdPeriph_Driver/inc/stm32f4xx_sp
 D:/hjworkspace/stm32_tutorials_from_nanuyo.com/StdPeriph_Driver/inc/stm32f4xx_cec.h:
 
 D:/hjworkspace/stm32_tutorials_from_nanuyo.com/inc/led.h:
+
+D:/hjworkspace/stm32_tutorials_from_nanuyo.com/inc/timer.h:

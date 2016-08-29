@@ -1,16 +1,14 @@
 #include "stm32f4xx.h"
 #include "led.h"
+#include "timer.h"
 
-//#define TEST1
-//#define TEST2
-#define TEST3
-//#define TEST4
 
 void HJ_TimerInit(void)
 {
     RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM2, ENABLE);
 
     TIM_TimeBaseInitTypeDef timerInitStructure;
+
     timerInitStructure.TIM_Prescaler = 40000;
     timerInitStructure.TIM_CounterMode = TIM_CounterMode_Up;
     timerInitStructure.TIM_Period = 500;
@@ -28,14 +26,25 @@ void HJ_TimerInterruptInit(void)
 
 void HJ_TimerInterruptEnable(void)
 {
-        NVIC_InitTypeDef nvicStructure;
-        nvicStructure.NVIC_IRQChannel = TIM2_IRQn;
-        nvicStructure.NVIC_IRQChannelPreemptionPriority = 0;
-        nvicStructure.NVIC_IRQChannelSubPriority = 1;
-        nvicStructure.NVIC_IRQChannelCmd = ENABLE;
-        NVIC_Init(&nvicStructure);
+    NVIC_InitTypeDef nvicStructure;
+
+    nvicStructure.NVIC_IRQChannel = TIM2_IRQn;
+	nvicStructure.NVIC_IRQChannelPreemptionPriority = 0;
+	nvicStructure.NVIC_IRQChannelSubPriority = 1;
+	nvicStructure.NVIC_IRQChannelCmd = ENABLE;
+	NVIC_Init(&nvicStructure);
 }
 
+void HJ_TimerInitLEDforPWM(void)
+{
+    RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOA, ENABLE);
+
+    GPIO_InitTypeDef gpioStructure;
+    gpioStructure.GPIO_Pin = GPIO_Pin_5;
+    gpioStructure.GPIO_Mode = GPIO_Mode_AF;
+    gpioStructure.GPIO_Speed = GPIO_Speed_50MHz;
+    GPIO_Init(GPIOA, &gpioStructure);
+}
 
 void HJ_TimerPWMChannelInit(void)
 {
@@ -51,12 +60,7 @@ void HJ_TimerPWMChannelInit(void)
     GPIO_PinAFConfig(GPIOA, GPIO_PinSource5, GPIO_AF_TIM2);
 }
 
-
-#if defined (TEST3)
-
 extern void TIM2_IRQHandler();
-
-
 void TIM2_IRQHandler()
 {
     if (TIM_GetITStatus(TIM2, TIM_IT_Update) != RESET)
@@ -65,12 +69,9 @@ void TIM2_IRQHandler()
         GPIO_ToggleBits(GPIOA, GPIO_Pin_5);
     }
 }
-#endif
 
-
-int HJ_TimerTest(void)
+void HJ_TimerTest(void)
 {
-#if defined (TEST1)
 	HJ_LedInit();
     HJ_TimerInit();
 
@@ -82,7 +83,10 @@ int HJ_TimerTest(void)
         else if (timerValue == 500)
             GPIO_WriteBit(GPIOA, GPIO_Pin_5, Bit_RESET);
     }
-#elif defined (TEST2)
+}
+
+void HJ_TimerInterruptTest(void)
+{
     HJ_LedInit();
     HJ_TimerInit();
     HJ_TimerInterruptInit();
@@ -95,25 +99,19 @@ int HJ_TimerTest(void)
             GPIO_ToggleBits(GPIOA, GPIO_Pin_5);
         }
     }
-#elif defined (TEST3)
+}
+
+void HJ_TimerInterruptHandlerTest(void)
+{
     HJ_LedInit();
     HJ_TimerInit();
     HJ_TimerInterruptInit();
     HJ_TimerInterruptEnable();
+}
 
-        for (;;)
-        {
-        	/*for (int i = 0; i < 1000000; i++)
-        				asm("nop");
-        			GPIO_ToggleBits(GPIOD, GPIO_Pin_13);*/
-        }
-#elif defined (TEST4)
-     HJ_LedInit();
-     HJ_TimerInit();
-     HJ_TimerPWMChannelInit();
-
-        	for (;;)
-        	{
-        	}
-#endif
+void HJ_TimerPWMTest(void)
+{
+    HJ_TimerInitLEDforPWM();
+    HJ_TimerInit();
+    HJ_TimerPWMChannelInit();
 }
