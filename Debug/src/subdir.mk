@@ -5,6 +5,7 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../src/delay.c \
+../src/delay2.c \
 ../src/led.c \
 ../src/main.c \
 ../src/syscalls.c \
@@ -13,6 +14,7 @@ C_SRCS += \
 
 OBJS += \
 ./src/delay.o \
+./src/delay2.o \
 ./src/led.o \
 ./src/main.o \
 ./src/syscalls.o \
@@ -21,6 +23,7 @@ OBJS += \
 
 C_DEPS += \
 ./src/delay.d \
+./src/delay2.d \
 ./src/led.d \
 ./src/main.d \
 ./src/syscalls.d \

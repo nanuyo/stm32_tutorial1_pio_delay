@@ -9,9 +9,9 @@ void HJ_TimerInit(void)
 
     TIM_TimeBaseInitTypeDef timerInitStructure;
 
-    timerInitStructure.TIM_Prescaler = 44999;
+    timerInitStructure.TIM_Prescaler = (45000-1);
     timerInitStructure.TIM_CounterMode = TIM_CounterMode_Up;
-    timerInitStructure.TIM_Period = 500;
+    timerInitStructure.TIM_Period = (2000-1);
     timerInitStructure.TIM_ClockDivision = TIM_CKD_DIV1;
     timerInitStructure.TIM_RepetitionCounter = 0;
     TIM_TimeBaseInit(TIM2, &timerInitStructure);
@@ -78,10 +78,8 @@ void HJ_TimerTest(void)
     for (;;)
     {
         int timerValue = TIM_GetCounter(TIM2);
-        if (timerValue == 400)
-            GPIO_WriteBit(GPIOA, GPIO_Pin_5, Bit_SET);
-        else if (timerValue == 500)
-            GPIO_WriteBit(GPIOA, GPIO_Pin_5, Bit_RESET);
+        if (timerValue == (2000-1) )
+         GPIO_ToggleBits(GPIOA, GPIO_Pin_5);
     }
 }
 
